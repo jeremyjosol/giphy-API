@@ -4,7 +4,7 @@
 _Jeremy Josol_
 
 ## About
-This an application that uses the [Giphy API](https://developers.giphy.com/) and allows a user to search for gifs and generate results based on the keyword input. Additionally, this application features a button a user can click on to generate results for 'trending' gifs.
+This an application that uses the [Giphy API](https://developers.giphy.com/) and allows a user to search for gifs and generate relevant results based on the keyword input. Additionally, this application features a button a user can click on to generate results for 'trending' gifs. There is a specified parameter limit of 5 gifs per search.
 
 ## Technologies Used
 
