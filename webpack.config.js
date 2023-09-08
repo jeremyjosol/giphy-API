@@ -23,7 +23,7 @@ module.exports = {
       verbose: true
     }),
     new HtmlWebpackPlugin({
-      title: 'weatherapi',
+      title: 'giphyapi',
       template: './src/index.html',
       inject: 'body'
     }),

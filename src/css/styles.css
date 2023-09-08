@@ -1,0 +1,58 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+} 
+
+.container {
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 120px;
+  padding: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 450px;
+  background-color: rgb(0, 0, 0, 0.65);
+  /* opacity: 80%; */
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.label-text {
+  color: white;
+  margin: auto;
+}
+
+.form-control {
+  margin: auto;
+  width: 250px;
+  height: 40px;
+  opacity: 100%; 
+  padding: auto;
+  padding-right: 0px;
+}
+
+.form-container {
+  margin: auto;
+  opacity: 100%;
+}
+
+.btn {
+  margin: auto;
+  margin-top: 5px;
+  width: 250px;
+  opacity: 90%;
+}
+
+.btn:hover {
+  opacity: 100%;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-size: smaller;
+}
