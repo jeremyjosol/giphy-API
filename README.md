@@ -1,10 +1,10 @@
-# Project Title
+# Giphy API
 
 ## Contributors
 _Jeremy Josol_
 
 ## About
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+This an application that uses the [Giphy API](https://developers.giphy.com/) and allows a user to search for gifs and generate results based on the keyword input. Additionally, this application features a button a user can click on to generate results for 'trending' gifs.
 
 ## Technologies Used
 
@@ -16,26 +16,37 @@ _Jeremy Josol_
 * _Javascript_
 * _Node.js v16.13.1_
 * _npm v8.1.2_
+* _Giphy API_
 
 ### Prerequisuites
 > _Your computer or codespace should use **Node.js version 16** or greater. For more information, see_ [Node.js](https://nodejs.org/en).
 
 ## Application Setup
 
-1. Clone the [repository](https://github.com/jeremyjosol/project_name.git) by either copying the link or entering the command in your terminal:
+1. Clone the [repository](https://github.com/jeremyjosol/sep52023_giphyapi.git) by either copying the link or entering the command in your terminal:
     ```
-     git clone enter_link_here
+     git clone https://github.com/jeremyjosol/sep52023_giphyapi.git
     ```
-  2. After successfully cloning down the repository, navigate to the **'projectname_project'** directory, if the file is located in your desktop, enter the following command:
+2. After successfully cloning down the repository, navigate to the **'sep52023_giphyapi'** directory, if the file is located in your desktop, enter the following command:
       ```
-       cd projectname_project
-3. Before you can use or deploy the project, make sure to install its dependencies. Run the following command in your terminal:
+       cd sep52023_giphyapi   
+3. In the root directory of `sep52023_giphyapi`, enter the following command `touch .env`. This file is where you will store your API key.
+
+4. If you don't already have an API key for [Giphy](https://developers.giphy.com/), create a free account to have one generated. This is required in order for the function to call on the API in this project.
+
+5. After opening up your codespace, locate the **.env** file. Within the **.env** file, enter the following code: 
+      ```
+        API_KEY=yourAPIkey
+      ```  
+    > _.**env** will already be located in the **.gitignore** file to protect this sensitive information._
+
+6. Before you can use or deploy the project, make sure to install its dependencies. Run the following command in your terminal:
 
     `$ npm install`
 
     > _This command will read the **package.json** file and install all the required packages_.
 
-4. Once its dependencies are installed, you're ready to perform these available options:
+7. Once its dependencies are installed, you're ready to perform these available options:
     
     - To build the project:
     
@@ -62,8 +73,7 @@ _Jeremy Josol_
       > _This will launch a local server for testing and development purposes_.
 
 
-
-You should now be set up to use, develop, and test **Project Name**. If you encounter any issues or have questions, feel free to reach out or refer to the project's documentation. Alternatively, if you'd like to view the project without setting up a local environment, you can access it on [Github Pages](https://jeremyjosol.github.io/aug252023_project/). 
+You should now be set up to use, develop, and test **Giphy API**. If you encounter any issues or have questions, feel free to reach out or refer to the project's documentation. Alternatively, if you'd like to view the project without setting up a local environment, you can access it on [Github Pages](https://jeremyjosol.github.io/sep52023_giphyapi/). 
 
 
 ## Known Bugs
